@@ -1,0 +1,30 @@
+*{
+    background-color: aliceblue;
+}
+.container{
+    text-align: center;
+    padding: 5% 15%;
+}
+.drum{
+    padding: 2rem;
+    margin: 10px;
+    font-size: 2rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: 900;
+    box-shadow: 0px 0px 6px 0px;
+    font-family:cursive;
+}
+
+h1{
+    text-align: center;
+    font-family:sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: rebeccapurple;
+}
+
+.drum:hover{
+    background-color: red;
+    color: white;
+}
