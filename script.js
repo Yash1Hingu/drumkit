@@ -16,11 +16,11 @@ document.addEventListener("keydown", (e) => {
         let s5 = new Audio("sounds/snare.mp3");
         s5.play();
     } else if (name === "h") {
-        let s6 = new Audio("sounds/crash.mp3");
-        s6.play();
-    } else if (name === "l") {
         let s7 = new Audio("sounds/kick-bass.mp3");
         s7.play();
+    } else if (name === "l") {
+        let s6 = new Audio("sounds/crash.mp3");
+        s6.play();
     }
 })
 
